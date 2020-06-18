@@ -344,7 +344,7 @@ left: -50px;
 	margin-right: 40px;
 }
 .social  img:hover{
-	width: 38px;
+	opacity: 0.3;
 	transition: 0.4s;
 }
 #desgin {
