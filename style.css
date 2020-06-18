@@ -1,0 +1,268 @@
+*{
+	margin:0;
+	padding: 0; 
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./bg/9.jpg);
+	height: 100vh; 
+	background-size: cover;
+	background-position:center ;  
+}
+.nav-bar{
+	height: 100px;
+	background: rgba(0,0,0,.0.5);
+	color:#fff;
+	font-family: sans-serif;
+
+}
+.nav-bar h1{
+	float: left;
+	margin-left: 60px;
+	margin-top: 20px;
+	font-family: fantasy;
+	font-size: 40px;
+}
+.menu{
+	float: right;
+	list-style: none;
+	margin: 9px 60px;
+}
+.menu li{
+	display: inline-flex;
+	padding: 20px;
+
+}
+.menu li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+
+}
+.menu li a:hover{
+	color:#cf7e00;
+	transition: 0.4s;
+}
+.active a{
+	color: #cf7e00 !important;
+}
+.head-but {
+	position: relative;
+	top: 200px;
+	left: 80px;
+}
+.head-but h1{
+	color:#fff;
+	font-family: sans-serif;
+	font-size: 50px;
+	letter-spacing: 8px;
+	margin-bottom: 50px;
+}
+.head-but a{
+	letter-spacing: 2px;
+	text-decoration: none;
+	color:#fff;
+	margin: 0px 255px;
+	padding:  10px;
+	background: #cf7e00;
+	border-radius: 10px;
+}
+.head-but a:hover{
+background: #fff;
+color:#cf7e00;
+transition: 0.9s;
+}
+.story-img{
+	width: 50%;
+	
+}
+.story-img img{
+	float: left;
+	margin: 100px 100px 100px 0px;
+}
+.story-text{
+
+	text-align: center;
+}
+
+.story-text h1{
+	font-family: sans-serif;
+	text-shadow: 1px solid #cf7e00; 
+	margin-right: 100px;
+	padding-top: 140px; 
+}
+.story-text p {
+	color:#cf7e00;
+	font-family: fantasy;
+	margin-right:  100px;
+	padding-top: 10px;
+}
+.services{
+	position: relative;
+	text-align: center;
+	float: left;
+}
+.services #ser-h1{
+	font-family: sans-serif;
+	text-shadow: 1px solid #cf7e00; 
+	margin-bottom: 10px; 
+}
+.services #ser-p1{
+padding: 0px 350px;
+color:#cf7e00;
+font-family: fantasy;
+}
+
+#hr1{
+	margin-bottom: 10px;
+	margin-left: 425px;
+	width: 400px;
+}
+.row{
+	position: relative;
+	margin: 25px 100px;
+
+}
+.col-1{
+	border:1px solid #000;
+	width: 150px;
+	padding:30px 40px;
+	float: left;
+	margin: 60px; 
+	box-shadow: 0px 0px 20px 0px #000 ; 
+	border-radius: 20px;
+}
+.col-1 img{
+	width:120px;
+}
+.col-1 h3{
+	font-family: sans-serif;
+	padding: 20px 0px;
+	letter-spacing: 2px;
+}
+.col-1 p{
+	font-family: fantasy;
+	text-align: center;
+	color: #cf7e00;
+}
+.col-1 button{
+	font-size:15px;
+	color: #fff;
+	background: #cf7e00;
+	border:none; 
+	border-radius: 5px;
+	font-family: sans-serif;
+	padding: 10px 20px;
+	margin: 20px 10px 0px 0px ;
+	box-shadow: 0px 0px 20px 0px #000 
+}
+.col-1 button:hover{
+	border-radius: 20px;
+	transition: 0.9s;
+}
+.vedio{
+	margin: 100px;
+}
+.cup-of-section{
+	margin-bottom:700px ; 
+}
+.cup-of-cofee{
+	margin-bottom: 100px;
+}
+.cup-of-img{
+float: right;
+}
+.cup-of-img img{
+width: 600px;
+}
+.cup-of-text{
+	float: left;
+	margin: 100px 0px 0px 150px;
+}
+.cup-of-text h1{
+	font-family: sans-serif; 
+	color: #48321d;
+	font-size: 40px;
+	margin: 10px 10px 10px 0px;
+}
+.cup-of-text p{
+	font-family: sans-serif; 
+	color: #cf7e00;
+	font-size: 20px;
+	width: 290px;
+}
+.coffee-breve{
+
+	margin-top: 50px;
+	margin-right: 90px;
+	float: right;
+	padding-right: 50px;
+}
+.coffee-breve h4{
+	font-family: cursive;
+	margin-bottom: 10px;
+}
+.coffee-breve p{
+	font-family: sans-serif;
+	font-size: 12px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+.coffee-breve button{
+	background: #cf7e00;
+	color: #000;
+	border:none;
+	padding: 3px 6px;
+	border-radius: 7px ;
+	font-size:12px ; 
+}
+.coffee-breve button:hover{
+	border-radius: 50px;
+	transition: 0.9s;
+}
+
+.ver1{
+	position: relative;
+}
+.ver{
+	border-right: 1px solid #cf7e00;
+	position: absolute;
+	left: 320px;
+	top: 270px;
+	height: 90px;
+	color: #cf7e00;
+}
+.why{
+	position: relative;
+	text-align: center;
+}
+.why h1{
+	font-family: sans-serif;
+	color:#48321d;
+	margin-bottom: 20px;
+}
+.why p{
+	color:#cf7e00;
+	margin-bottom: 100px;
+}
+.row-2{
+	text-align: center;
+	width: 100%;
+	margin: 0px 0px 0px 200px;
+
+}
+.col-2{
+	float: left;
+	margin-right: 125px;
+}
+.col-2 img{
+	width: 200px;
+	height: 110px;
+	margin-bottom: 20px;
+	border-radius: 100px;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+.col-2 p{
+	margin-top: 20px;
+	font-family: fantasy;
+	color: #cf7e00;
+}
